@@ -176,7 +176,7 @@
             chartFunction_KEV.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             chartFunction_KEV.Legends.Add(legend1);
-            chartFunction_KEV.Location = new Point(195, 37);
+            chartFunction_KEV.Location = new Point(188, 42);
             chartFunction_KEV.Name = "chartFunction_KEV";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
@@ -184,7 +184,7 @@
             series1.Legend = "Legend1";
             series1.Name = "SeriesFunction";
             chartFunction_KEV.Series.Add(series1);
-            chartFunction_KEV.Size = new Size(563, 375);
+            chartFunction_KEV.Size = new Size(536, 375);
             chartFunction_KEV.TabIndex = 5;
             // 
             // textBoxConclusion_KEV

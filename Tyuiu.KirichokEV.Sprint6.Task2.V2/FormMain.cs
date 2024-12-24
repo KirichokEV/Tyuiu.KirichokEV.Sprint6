@@ -25,8 +25,8 @@ namespace Tyuiu.KirichokEV.Sprint6.Task2.V2
 
                 this.chartFunction_KEV.Titles.Add("График функции");
 
-                this.chartFunction_KEV.chartAreas[0].AxisX.Title = "Ось Х";
-                this.chartFunction_KEV.chartAreas[0].AxisY.Title = "Ось Y";
+                this.chartFunction_KEV.ChartAreas[0].AxisX.Title = "Ось Х";
+                this.chartFunction_KEV.ChartAreas[0].AxisY.Title = "Ось Y";
 
                 for (int i = 0; i <= len - 1; i++)
                 {
