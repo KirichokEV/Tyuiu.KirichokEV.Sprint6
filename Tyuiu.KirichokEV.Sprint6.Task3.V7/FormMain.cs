@@ -34,6 +34,7 @@ namespace Tyuiu.KirichokEV.Sprint6.Task3.V7
                     dataGridViewMatrix_KEV.Rows[i].Cells[j].Value = Convert.ToString(mtrx[i, j]);
                 }
             }
+            dataGridViewMatrix_KEV.Columns[4].SortMode = DataGridViewColumnSortMode.Automatic;
 
         }
 
